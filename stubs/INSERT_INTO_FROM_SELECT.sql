@@ -4,4 +4,4 @@ INSERT INTO [{tablename}]
 
 -- Insert into specific columns    
 INSERT INTO [{tablename}] ({column1}, {column2})
-    SELECT {column1}, {column2} FROM {anothertable} (WHERE {wherecondition});
+    SELECT {value1}, {value2} FROM {anothertable} (WHERE {wherecondition});
